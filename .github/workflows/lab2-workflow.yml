@@ -1,7 +1,6 @@
 name: Exploring Workflow Dispatch Trigger
 
 on:
-  push: 
   workflow_dispatch:
     inputs:                                   #added
       run-job:
